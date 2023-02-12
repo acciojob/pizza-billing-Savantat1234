@@ -73,8 +73,9 @@ public class Pizza {
                 this.bill += "Paperbag Added: " + "20" + "\n";
             }
             this.bill += "Total Price: " + this.price + "\n";
-            isBillGenerated = true;
+            this.isBillGenerated = true;
+            return this.bill;
         }
-        return this.bill;
+        return "";
     }
 }
